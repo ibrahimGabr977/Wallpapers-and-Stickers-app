@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screens.main.MainActivity"
+    android:background="@color/darker_color"
+    android:orientation="vertical"
+    >
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_weight="1">-->
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swiperefresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/mainRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="2dp"
+            app:layout_constraintWidth_percent="0.95"
+            android:paddingTop="10dp"
+            app:layout_constraintVertical_bias="0"
+            android:paddingHorizontal="15dp"
+            />
+
+<!--        <androidx.recyclerview.widget.RecyclerView-->
+<!--            android:id="@+id/mainRecyclerView"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            android:layout_marginBottom="2dp"-->
+<!--            app:layout_constraintWidth_percent="0.95"-->
+<!--            android:paddingTop="10dp"-->
+<!--            app:layout_constraintVertical_bias="0"-->
+<!--            android:paddingHorizontal="3dp"-->
+<!--            />-->
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+
+
+    <TextView
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#4F000000"
+        android:layout_weight="0"
+        />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darker_color"
+        app:menu="@menu/bnv_menu"
+        app:itemIconTint="@color/bnv_colors"
+        app:itemTextColor="@color/bnv_colors"
+        app:itemTextAppearanceActive="@style/MineCustomTabText"
+        app:itemTextAppearanceInactive="@style/MineCustomTabText"
+        app:itemIconSize="23dp"
+        android:layout_weight="0"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screens.splash.SplashActivity"
+    android:background="@drawable/a_splash_image">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#A6212139"
+        />
+
+
+    <TextView
+        android:id="@+id/splash_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="@color/white_color"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:fontFamily="cursive"
+        app:layout_constraintVertical_bias="0.79"/>
+
+    <TextView
+        android:id="@+id/splash_welcome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/splash_text"
+        app:layout_constraintEnd_toEndOf="@id/splash_text"
+        app:layout_constraintTop_toBottomOf="@id/splash_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="@color/white_color"
+        android:textStyle="bold|italic"
+        android:textSize="15sp"
+        android:fontFamily="casual"
+        android:layout_marginTop="11dp"
+        app:layout_constraintVertical_bias="0"
+        android:letterSpacing="0.097"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

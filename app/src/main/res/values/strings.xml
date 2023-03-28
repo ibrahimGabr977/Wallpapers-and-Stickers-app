@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Football Time</string>
+    <string name="welcome">Welcome to Soccer\'s world!!</string>
+    <string name="error_view_text">Couldn\'t load image</string>
+    <string name="menu_button">Open menu button</string>
+    <string name="images">Photos</string>
+    <string name="stickers">Stickers</string>
+    <string name="display_title">Gallery</string>
+    <string name="save">Save</string>
+    <string name="share">Share</string>
+    <string name="home_screen">Set home</string>
+    <string name="lock_screen">Set Lock</string>
+    <string name="jump">Jump</string>
+    <string name="image">Image</string>
+
+
+    <string name="banner_ad_id1">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ad_id2">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ad_id3">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="interstitial_ad_id1">ca-app-pub-3940256099942544/1033173712</string>
+
+    <string name="native_ad_id">ca-app-pub-3940256099942544/2247696110</string>
+
+
+
+    <!--    <string name="banner_ad_id1">ca-app-pub-1155104911325440/9557760040</string>-->
+<!--    <string name="banner_ad_id2">ca-app-pub-1155104911325440/3227961897</string>-->
+<!--    <string name="banner_ad_id3">ca-app-pub-1155104911325440/4820245162</string>-->
+<!--    <string name="interstitial_ad_id1">ca-app-pub-1155104911325440/3428601432</string>-->
+<!--    <string name="native_ad_id">ca-app-pub-1155104911325440/8480111934</string>-->
+
+
+
+</resources>
